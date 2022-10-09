@@ -1,0 +1,41 @@
+{
+  "name": "typescript",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "prettier": {
+    "semi": false
+  },
+  "scripts": {
+    "start": "vite --port 3001 --open",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2",
+    "vite": "^3.1.0",
+    "vite-plugin-compression": "^0.5.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@dimforge/rapier2d-compat": "^0.9.0",
+    "@math.gl/core": "^3.6.3",
+    "@pixi/constants": "6.5.5",
+    "@pixi/core": "6.5.5",
+    "@pixi/display": "^6.5.1",
+    "@pixi/extensions": "6.5.5",
+    "@pixi/graphics": "^6.5.5",
+    "@pixi/interaction": "^6.5.1",
+    "@pixi/math": "^6.5.1",
+    "@pixi/runner": "6.5.5",
+    "@pixi/settings": "6.5.5",
+    "@pixi/sprite": "6.5.5",
+    "@pixi/ticker": "^6.5.1",
+    "@pixi/utils": "6.5.5",
+    "convnetjs-ts": "^0.1.0",
+    "pixi-viewport": "^4.35.1",
+    "pixi.js": "^6.5.5",
+    "tslib": "^2.4.0",
+    "tweakpane": "^3.1.0",
+    "webpack": "^5.74.0"
+  }
+}
